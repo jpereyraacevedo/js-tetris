@@ -1,0 +1,25 @@
+/* font-family: 'Montserrat', sans-serif; */
+:root {
+    --green: #00c688;
+    --light-blue: #09a8c7;
+    --strong-pink: #b90c74;
+    --pink: #f236d0;
+    --purple: #6f369b;
+  }
+  
+
+
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    background-color: var(--strong-pink);
+}
